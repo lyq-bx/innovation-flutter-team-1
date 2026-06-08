@@ -70,7 +70,7 @@ class FreshHelloApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '刘丽强的创新实验 Flutter',
+      title: '雷雅倩的创新实验 Flutter',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
@@ -107,7 +107,7 @@ class _HelloHomePageState extends State<HelloHomePage> {
       backgroundColor: const Color(0xFFFFF0F3),
       appBar: AppBar(
         title: const Text(
-          '刘丽强的创新实验 Flutter 首页',
+          '雷雅倩的创新实验 Flutter 首页',
           style: TextStyle(fontWeight: FontWeight.w500),
         ),
         backgroundColor: const Color(0xFFFFB7C5),
@@ -196,7 +196,7 @@ class _HelloHomePageState extends State<HelloHomePage> {
                           ),
                           const SizedBox(width: 8),
                           const Text(
-                            '姓名：刘丽强',
+                            '姓名：雷雅倩',
                             style: TextStyle(
                               fontSize: 15,
                               color: Color(0xFFFF6B8A),
@@ -214,7 +214,7 @@ class _HelloHomePageState extends State<HelloHomePage> {
                           ),
                           const SizedBox(width: 8),
                           const Text(
-                            '学号：****7827',
+                            '学号：****0118',
                             style: TextStyle(
                               fontSize: 15,
                               color: Color(0xFFFF6B8A),
@@ -251,7 +251,7 @@ class _HelloHomePageState extends State<HelloHomePage> {
                           SizedBox(width: 8),
                           Flexible(
                             child: Text(
-                              '成员：吴宣萱、刘丽、李娅、马蝶、雷雅倩、刘丽强',
+                              '成员：吴宣萱、刘丽、李娅、马蝶、雷雅倩',
                               textAlign: TextAlign.center,
                               style: TextStyle(
                                 fontSize: 15,
